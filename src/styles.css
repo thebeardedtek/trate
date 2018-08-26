@@ -1,0 +1,99 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+@font-face {font-family: ave-ul; src: url('assets/fonts/AvenirNext-UltraLight.ttf');}
+@font-face {font-family: ave-lt; src: url('assets/fonts/Avenir-Light.ttf');}
+@font-face {font-family: ave-md; src: url('assets/fonts/Avenir-Medium.ttf');}
+@font-face {font-family: ave-bk; src: url('assets/fonts/Avenir-Book.ttf');}
+@font-face {font-family: ave-rm; src: url('assets/fonts/Avenir-Roman.ttf');}
+@font-face {font-family: ave-hv; src: url('assets/fonts/Avenir-Heavy.ttf');}
+@font-face {font-family: ave-blk; src: url('assets/fonts/Avenir-Black.ttf');}
+@font-face {font-family: chalk; src: url('assets/fonts/Chalkduster.ttf');}
+
+@font-face {font-family: aveNext-bold; src: url('assets/fonts/AvenirNext-Bold.ttf');}
+@font-face {font-family: aveNext-demi; src: url('assets/fonts/AvenirNext-DemiBold.ttf');}
+@font-face {font-family: aveNext-hv; src: url('assets/fonts/AvenirNext-Heavy.ttf');}
+@font-face {font-family: aveNext-md; src: url('assets/fonts/AvenirNext-Medium.ttf');}
+@font-face {font-family: aveNext-reg; src: url('assets/fonts/AvenirNext-Regular.ttf');}
+@font-face {font-family: aveNext-ul; src: url('assets/fonts/AvenirNext-UltraLight.ttf');}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul, li {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a,a:hover{text-decoration: none !important;}
+
+.ave-ul{font-family: ave-ul, sans-serif;}
+.ave-lt{font-family: ave-lt, sans-serif;}
+.ave-md{font-family: ave-md, sans-serif;}
+.ave-bk{font-family: ave-bk, sans-serif;}
+.ave-rm{font-family: ave-rm, sans-serif;}
+.ave-hv{font-family: ave-hv, sans-serif;}
+.ave-blk{font-family: ave-blk, sans-serif;}
+.chalk{font-family: chalk, sans-serif;}
+
+.aveNext-bold{font-family: aveNext-bold, sans-serif;}
+.aveNext-demi{font-family: aveNext-demi, sans-serif;}
+.aveNext-hv{font-family: aveNext-hv, sans-serif;}
+.aveNext-md{font-family: aveNext-md, sans-serif;}
+.aveNext-reg{font-family: aveNext-reg, sans-serif;}
+.aveNext-ul{font-family: aveNext-ul, sans-serif;}
+
+.height-100{height: 100%;}
+img{width: 100%; height: auto;}
+img > *{position: relative}
+.absolute{position: absolute; left: 0; top: 0;}
+.relative{position: relative;}
+.default-btn-color{padding:8px 15px; background: #550e6c; color: #ddd;}
+.flex-container{display: flex; align-content: center; justify-content: center; align-items: center;}
+.block{display: block;}
+
+.container-fluid{padding-left: 0px; padding-right: 0px;}
+.section-divider{padding-top:2.5px; padding-bottom:2.5px; padding-left: 0px !important; padding-right: 0px !important; margin: 0px; display: block; background-color:#550e6c;}
+
+.schedule-consultation:hover{cursor: pointer;}
+.align-left{text-align: left;}
+.align-right{text-align: right;}
+.align-center{text-align: center;}
+
+.color{color:#550e6c!important}
+.black{color:#000}
+.white{color:#FFF}

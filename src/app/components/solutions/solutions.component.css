@@ -1,0 +1,18 @@
+#solutions-section{padding-top:55px; padding-bottom: 55px;}
+#solutions-header{margin-bottom: 60px;}
+.solutions-title{font-size: 3em; text-align: center; color: #ccc;}
+.solutions-subtitle{text-align: center;}
+#solutions-block-section{padding-left: 0px; padding-right: 0px;}
+.solutions-block-left{padding-left: 0px;}
+.solutions-col-left{padding-left: 40px;}
+.solutions-col-right{padding-right: 40px;}
+.solutions-block-right{padding-right: 0px;}
+.solution-block{font-size: 1em; margin-top: 100px;}
+.solutions-button{margin-top: 30px;}
+.solutions-button-link{color: #FFF; background-color: #550e6c; padding: 15px 20px; font-size: 16px;}
+.solution-block-list{margin: 15px 0 25px;}
+.solution-block-list li{list-style-type: disc; list-style-position: outside; margin-left: 20px;}
+.solution-block-title{font-size: 1.5em; color:#ccc; margin-bottom: 6px;}
+.solution-block-text{display: block; margin-bottom: 12px;}
+.solution-block-text-em{font-style: italic;}
+/* #session-details{display: none;} */

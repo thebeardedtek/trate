@@ -1,0 +1,10 @@
+#about-section{padding-top:55px; }
+.bio-pic{ float: left; margin: 0 15px 15px 0; box-shadow: 0px 0px 100px 10px rgba(51,51,51,.4);}
+.bio-intro{font-size: 1.2em; margin-bottom: 20px;}
+.bio-subtitle{display: block; margin-top: 15px; padding-bottom: 10px;}
+.bio-content-list{margin-left: 20px;}
+.bio-content-list li{list-style-type: disc; margin-bottom: 10px;}
+.meet-ken{color:#ccc; font-size: 2.5em; text-align: center;}
+.social-nav{text-align: center;}
+.social-nav li{display: inline; margin:0 10px;}
+.social-nav i{background-color: #550e6c; color: #FFF; border-radius: 2%; padding: 15px 20px; font-size: 1.5em;}

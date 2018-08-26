@@ -1,0 +1,17 @@
+{
+  "name": "trate",
+  "description": "",
+  "main": "",
+  "authors": [
+    "thebeardedtek <20306343+MuscleGuy@users.noreply.github.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/thebeardedtek/trate",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

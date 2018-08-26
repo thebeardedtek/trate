@@ -1,0 +1,7 @@
+.fees-table{border-bottom: none;}
+.fees-table td{padding: 1%; border-bottom: 1px solid rgba(51,51,51,.4);}
+
+.fees-title{font-size: 1.5em; color:rgb(119, 119, 119); margin-bottom: 6px;}
+.fee-details-col{background-color: #eee; border-bottom: 1px solid rgba(51,51,51,.4);}
+.fees-table td:nth-of-type(odd){background-color: #eee;}
+.fees-table td:nth-of-type(even){background-color: #f4f4f4;}

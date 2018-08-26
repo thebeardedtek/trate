@@ -1,0 +1,12 @@
+#header-content{padding: 2% 3% 5%;}
+.menu-nav{text-align: center;}
+.menu-nav i{background-color: #FFF; padding: 30px; border-radius: 50%; color: #550e6c;}
+.menu-nav i:hover{background-color: #550e6c; color: #FFF; transition: background-color .2s; cursor: pointer;}
+.menu-label{text-transform: uppercase; padding-right: 15px; color:#FFF;}
+#logo{color:#FFF; font-size: 30px;}
+.menu-nav li{display: inline-block; margin: 25px;}
+.menu-nav li:first-of-type{margin-left:0px;}
+.menu-nav li:last-of-type{margin-right:0px;}
+.menu-link{color: #FFF;}
+.menu-link a{color: #FFF;}
+.consultation-btn-header{color: #FFF; background-color:#550e6c; padding: 15px 15px;}
