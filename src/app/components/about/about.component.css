@@ -7,4 +7,29 @@
 .meet-ken{color:#ccc; font-size: 2.5em; text-align: center;}
 .social-nav{text-align: center;}
 .social-nav li{display: inline; margin:0 10px;}
-.social-nav i{background-color: #550e6c; color: #FFF; border-radius: 2%; padding: 15px 20px; font-size: 1.5em;}
+.social-nav i{background-color: #550e6c; color: #FFF; border-radius: 2%; padding: 15px 20px; font-size: 1.5em;} 
+
+
+@media screen and (max-width:1035px){
+
+}
+
+
+@media screen and (max-width:780px){
+.about-col-mobile{margin-top: 40px;}
+}
+
+
+@media screen and (max-width:680px){
+
+}
+
+@media screen and (max-width:450px){
+#about-section .row{display: block;}
+.bio-intro{font-size: 1em;}
+}
+
+
+@media screen and (max-width:370px){
+
+}

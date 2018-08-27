@@ -18,6 +18,11 @@ export class MenuService {
     this.pageScrollService.start(pageScrollInstance);
   };
 
+  public scrollToTeletherapyMobile(): void {
+    let pageScrollInstance: PageScrollInstance = PageScrollInstance.simpleInstance(this.document, '#teletherapy-mobile');
+    this.pageScrollService.start(pageScrollInstance);
+  };
+
   public scrollToInterview(): void {
     let pageScrollInstance: PageScrollInstance = PageScrollInstance.simpleInstance(this.document, '#interview');
     this.pageScrollService.start(pageScrollInstance);

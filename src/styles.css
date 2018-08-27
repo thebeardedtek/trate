@@ -87,7 +87,7 @@ img > *{position: relative}
 .block{display: block;}
 
 .container-fluid{padding-left: 0px; padding-right: 0px;}
-.section-divider{padding-top:2.5px; padding-bottom:2.5px; padding-left: 0px !important; padding-right: 0px !important; margin: 0px; display: block; background-color:#550e6c;}
+.section-divider{padding-top:30px; padding-bottom: 30px;}
 
 .schedule-consultation:hover{cursor: pointer;}
 .align-left{text-align: left;}
@@ -97,3 +97,23 @@ img > *{position: relative}
 .color{color:#550e6c!important}
 .black{color:#000}
 .white{color:#FFF}
+
+
+@media screen and (max-width:1035px){
+
+}
+
+
+@media screen and (max-width:750px){
+
+}
+
+
+@media screen and (max-width:450px){
+
+}
+
+
+@media screen and (max-width:370px){
+
+}

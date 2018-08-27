@@ -1,3 +1,23 @@
 #footer-nav{}
 #footer-nav li{display: inline; padding-right: 25px;}
-#footer-nav li a{color: #FFF;}
+#footer-nav li a{color: #FFF;}   
+
+
+@media screen and (max-width:1035px){
+
+}
+
+
+@media screen and (max-width:780px){
+
+}
+
+
+@media screen and (max-width:450px){
+
+}
+
+
+@media screen and (max-width:370px){
+
+}

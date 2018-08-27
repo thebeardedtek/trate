@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MenuService } from '../../services/menu.service';
+
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -17,6 +18,13 @@ showMenu:any;
     this.menu.scrollToTeletherapy();
     this.showMobileMenu = false;
   }
+
+  toTeletherapyMobile(){
+    // this.showMenu = false;
+    this.menu.scrollToTeletherapyMobile();
+    this.showMobileMenu = false;
+  }
+
 
   toInterview(){
     this.showMenu = false;
@@ -52,6 +60,17 @@ showMenu:any;
     console.log('Hey');
   }
 
+  toggleMobileMenu(){
+    if(this.showMobileMenu === true){
+      this.showMobileMenu = false;
+    } else {
+      this.showMobileMenu = true;
+    }
+  }
+
+  exitMobileMenu(){
+    this.showMobileMenu = false;
+  }
   
   ngOnInit() {
     this.showMenu = false;

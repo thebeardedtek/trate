@@ -1,8 +1,28 @@
 #header-section{padding-left: 0px; padding-right: 0px;}
-#app-cta{background: url(../assets/img/cta/hero-bg.png) no-repeat center center; background-color: #550e6c; background-size: 100% auto}
+#app-cta{background: url(../assets/img/cta/hero-bg.png) no-repeat center center; background-size: 100% auto}
 #app-footer, #footer-section{background-color:#550e6c;}
 
 #footer-section{padding-top: 15px;}
 #footer-nav li{display: inline; padding-right: 25px;}
 #footer-nav li a{color: #FFF;}
-.copyright{color: #FFF;}
+.copyright{color: #FFF;} 
+
+@media screen and (max-width:1035px){
+
+}
+
+
+@media screen and (max-width:780px){
+
+}
+
+
+@media screen and (max-width:450px){
+#footer-nav{display: none;}
+#footer-section .row{display: block;}
+}
+
+
+@media screen and (max-width:370px){
+
+}

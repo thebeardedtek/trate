@@ -1,7 +1,31 @@
-#hero-section{background-image: url(../../../assets/img/hero/hero2.jpg); background-color: #550e6c; background-size: 100% auto; background-repeat: no-repeat; padding-bottom: 300px;}
+#hero-section{background-image: url(../../../assets/img/hero/hero2.jpg); background-repeat: no-repeat; padding-bottom: 300px; width: 100vw; background-size: cover; background-position: top center;}
 
 #hero-content{text-align: center; padding-top: 50px;}
 .hero-title{font-size: 4em; color:#FFF; padding: 0 25%; line-height: 1em; margin-bottom: 40px;}
 .hero-subtitle{font-size: 1.5em; color:#FFF;}
 .hero-cta-button{margin-top: 30px;}
-.hero-cta-button-link{color: #FFF; background-color: #550e6c; padding: 15px 20px;}
+.hero-cta-button-link{color: #FFF; background-color: #550e6c; padding: 15px 20px;} 
+
+
+@media screen and (min-width:1500px) and (max-width:1920px){
+      
+}
+
+@media screen and (max-width:1035px){
+    .hero-title{font-size: 3em; padding: 0%;}
+}
+
+
+@media screen and (max-width:780px){
+
+}
+
+
+@media screen and (max-width:450px){
+
+}
+
+
+@media screen and (max-width:370px){
+.hero-title{font-size: 2em;}
+}

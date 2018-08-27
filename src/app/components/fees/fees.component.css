@@ -5,3 +5,22 @@
 .fee-details-col{background-color: #eee; border-bottom: 1px solid rgba(51,51,51,.4);}
 .fees-table td:nth-of-type(odd){background-color: #eee;}
 .fees-table td:nth-of-type(even){background-color: #f4f4f4;}
+ 
+@media screen and (max-width:1035px){
+
+}
+
+
+@media screen and (max-width:780px){
+
+}
+
+
+@media screen and (max-width:450px){
+.fee-details-col{background-color: transparent; margin-top:25px; margin-bottom:25px; border:none;}
+}
+
+
+@media screen and (max-width:370px){
+
+}
